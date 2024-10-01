@@ -13,4 +13,9 @@
 4. Provides a fully responsive UI with dropdowns for grouping and sorting.
 5. Uses user availability status to show indicators in the card.
 
-# Thank you!
+## By
+
+### Manan Kanani
+
+https://www.manankanani.in <br />
+https://www.linkedin.com/in/manan-kanani
