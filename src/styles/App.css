@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
 
+:root{
+  --light-grey:#f4f4f4;
+  --white: #ffffff;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -9,11 +14,11 @@
 
 body {
   font-family: Poppins;
-  background-color: #f3f4f7;
+  background-color: var(--light-grey);
 }
 
 .navbar{
-  background-color: #ffffff;
+  background-color: var(--white);
   position: sticky;
   top: 0;
   z-index: 999;
@@ -24,9 +29,9 @@ body {
 }
 
 .btn{
-  border: 1px solid #dcdfe1;
+  border: 1px solid #e2e4e7;
   outline: none;
-  background-color: #ffffff;
+  background-color: var(--white);
   padding: 5px;
   display: flex;
   align-items: center;
@@ -70,7 +75,7 @@ body {
 }
 
 .card{
-  background-color: #ffffff;
+  background-color: var(--white);
   border-radius: 8px;
   border: 1px solid #e2e4e7;
   padding: 12px;
@@ -87,7 +92,7 @@ body {
 .card-user-img{
   font-size: 10px;
   background-color: #bf6c26;
-  color: #ffffff;
+  color: var(--white);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -102,7 +107,7 @@ body {
   position: absolute;
   right: -3px;
   bottom: -3px;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid var(--white);
   height: 10px;
   width: 10px;
   z-index: 99;
@@ -113,7 +118,7 @@ body {
   position: absolute;
   right: -3px;
   bottom: -3px;
-  border: 1.5px solid #ffffff;
+  border: 1.5px solid var(--white);
   height: 10px;
   width: 10px;
   z-index: 99;
@@ -136,7 +141,7 @@ body {
 
 .card-priority, .card-tag{
   padding: 5px;
-  background-color: #f4f4f4;
+  background-color: var(--light-grey);
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -159,7 +164,7 @@ body {
 
 .popup{
   position: fixed;
-  background-color: #ffffff;
+  background-color: var(--white);
   padding: 10px 20px;
   border: 1px solid #e2e4e7;
   border-radius: 8px;
@@ -181,7 +186,7 @@ body {
 .select-dropdown {
   padding: 5px 10px;
   border-radius: 5px;
-  background-color: #f4f4f4;
+  background-color: var(--light-grey);
   border-color: #00000030;
 }
 
