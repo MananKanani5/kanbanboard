@@ -1,5 +1,9 @@
 # Kanban Board | Quicksell Assessment
 
+### Live Preview
+
+[Live Preview here](https://kanban-quicksell-58eb70ad46e4.herokuapp.com/)
+
 ## Technologies
 
 - React
@@ -17,5 +21,5 @@
 
 ### Manan Kanani
 
-https://www.manankanani.in <br />
-https://www.linkedin.com/in/manan-kanani
+[manankanani.in](https://www.manankanani.in) <br />
+[LinkedIn](https://www.linkedin.com/in/manan-kanani)
